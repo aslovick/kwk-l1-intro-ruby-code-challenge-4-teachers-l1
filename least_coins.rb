@@ -88,7 +88,7 @@ def least_coins(cents)
   if cents % 25 == 0
     # coins[:quarters] += 1
     # cents = cents - 25
-    coin_types[:quarters] = quarters
+    coins[:quarters] = quarters
     cents = cents - quarters*25
   elsif cents % 10 == 0
     coins[:dimes] += 1
