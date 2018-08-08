@@ -6,13 +6,13 @@
 #     :pennies => 0
 #   }
 
-#   quarters = cents/25
-#   if quarters == 0
-#     coin_types[:quarters] = 0
-#   elsif quarters != 0
-#     coin_types[:quarters] = quarters
-#     cents = cents - quarters*25
-#   end
+  # quarters = cents/25
+  # if quarters == 0
+  #   coin_types[:quarters] = 0
+  # elsif quarters != 0
+  #   coin_types[:quarters] = quarters
+  #   cents = cents - quarters*25
+  # end
 
 #   dimes = cents/10
 #   if dimes == 0
