@@ -68,7 +68,7 @@ def least_coins(cents)
     elsif cents >= 1
         coins[:pennies] += 1
         cents = cents - 1
-    else
+    # else
       # break
     end
   # end
