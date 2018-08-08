@@ -46,7 +46,6 @@
 # least_coins(29)
 
 def least_coins(cents)
-
   coins = {
     :quarters => 0,
     :dimes => 0,
@@ -54,7 +53,7 @@ def least_coins(cents)
     :pennies => 0
   }
 
-  counter = 0
+  # counter = 0
 
   until cents == 0
     if cents >= 25
