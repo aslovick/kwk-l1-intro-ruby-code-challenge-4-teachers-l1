@@ -53,8 +53,6 @@ def least_coins(cents)
     :pennies => 0
   }
 
-  # counter = 0
-
   until cents == 0
     if cents >= 25
         coins[:quarters] += 1
