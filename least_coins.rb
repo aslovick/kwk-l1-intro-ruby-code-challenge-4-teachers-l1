@@ -75,3 +75,12 @@ def least_coins(cents)
   puts coins
 end
 least_coins(52)
+
+def least_coins(cents)
+  coins = {
+    :quarters => 0,
+    :dimes => 0,
+    :nickels => 0,
+    :pennies => 0
+  }
+end 
