@@ -55,7 +55,7 @@ def least_coins(cents)
 
   # counter = 0
 
-  until cents == 0
+  # until cents == 0
     if cents >= 25
         coins[:quarters] += 1
         cents = cents - 25
