@@ -73,6 +73,6 @@ def least_coins(cents)
       break
     end
   end
-  coins
+  puts coins
 end
 least_coins(52)
